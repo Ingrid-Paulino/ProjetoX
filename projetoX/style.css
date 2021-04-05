@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to right,#ff4f38ef, #ff7746d7);
+}
+
+#menu {
+    background-color: white; 
+}
+.mn {
+    display: inline-block;
+}
+
+main {
+    background-color: white;
+}
+
+#cm1 {
+    display: flex;
+}
+
+#materias {
+    margin: 50px 0px 0px 0px ;
+} 
+
+#mat, #bio, #qui, #fis, #port {
+    background-color: #ff8b38;
+    text-align: center;
+    border-radius: 20px;
+    margin: auto;
+    
+    height: 10em;
+    width: 15em;
+}
+#cm2 {
+    display: flex;
+}
+
+#hist, #geo, #fil, #soc, #art {
+    background-color: #ff8b38;
+    text-align: center;
+    border-radius: 20px;
+    margin: auto;
+    height: 10em;
+    width: 15em;
+}
+
+
+
+
+footer {
+  
+}
