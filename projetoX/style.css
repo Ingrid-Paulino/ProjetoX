@@ -1,40 +1,70 @@
 @charset "UTF-8";
 
 body {
-    background-image: linear-gradient(to right,#ff4f38ef, #ff7746d7);
+    background-image: linear-gradient(to right,#ff4f38cc, #ff7746d7);
+}
+
+h1 {
+    text-align: center;
 }
 
 #menu {
-    background-color: white; 
+    background-color: aliceblue;
+    
 }
-.mn {
-    display: inline-block;
-}
+
 
 main {
     background-color: white;
+    margin: 0px 50px 0px 50px;
+}
+
+#caixa1 {
+    display: flex;
+}
+ 
+c1 {
+    margin: 50px 0px 0px 0px;
+}
+
+.c2 {
+    text-align: justify;
+    margin: 0px 50px 0px 50px;
+}
+
+
+
+#materia {
+    text-align: center;
+}
+
+#materia2 {
+    text-align: justify;
 }
 
 #cm1 {
     display: flex;
+    margin: 20px 0px 10px 0px;
+    
 }
 
-#materias {
-    margin: 50px 0px 0px 0px ;
-} 
+#cm2 {
+    display: flex;
+    margin: 0px 0px 10px 0px;
+    
+    
+}
 
 #mat, #bio, #qui, #fis, #port {
     background-color: #ff8b38;
     text-align: center;
     border-radius: 20px;
     margin: auto;
-    
     height: 10em;
     width: 15em;
+    line-height:150px ;
 }
-#cm2 {
-    display: flex;
-}
+
 
 #hist, #geo, #fil, #soc, #art {
     background-color: #ff8b38;
@@ -43,11 +73,94 @@ main {
     margin: auto;
     height: 10em;
     width: 15em;
+    line-height:150px ; /*Centralisou o texto no meio*/
+}
+
+#txLivro {
+    text-align: center;
+    margin: 40px 0px 2px 0px;
+}
+
+#pLivro {
+    text-align: justify;
+
+}
+
+#ingles {
+    text-align: center;
+}
+
+#learn {
+    margin:50px 0px 0px 350px;
+    
+}
+
+#learnMae {
+    display: flex;
+}
+
+#learnMae2 {
+display: flex;
+}
+
+
+#footer {
+    background-color: rgb(37, 22, 22);
+    height: 350px;
+
+
+}
+
+#fglobal {
+    margin: 0px 0px 0px 700px ;
+}
+
+#f {
+    margin: 0px 0px 40px 200px;
+    color: whitesmoke;
+}
+
+#f12 {
+    display: flex;
+}
+
+#f1 {  
+    margin: 0px 0px 0px 200px;
+    color: whitesmoke;
+}
+
+
+#f2{
+    margin: 0px 0px 0px 55px ;
+    color: whitesmoke;
 }
 
 
 
-
-footer {
-  
+#f3 {
+    margin: 0px 0px 0px 200px;
+    color: whitesmoke;
 }
+
+.f33{
+    width: 400px;
+    
+}
+
+
+ #f4 {
+     margin: 0px 0px 0px 200px;
+     color: whitesmoke;
+ }
+
+
+#box {
+    width: 400px;
+    height: 150px;
+    
+}
+
+#btEnviar {
+    margin: 10px 0px 0px 350px;
+}
+
