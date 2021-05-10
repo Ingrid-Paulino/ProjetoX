@@ -1,35 +1,49 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,700;0,900;1,400&display=swap');
 
 body {
     background-image: linear-gradient(to right,#ff4f38cc, #ff7746d7);
-}
-
-h1 {
-    text-align: center;
+    position:relative;
 }
 
 #menu {
-    background-color: aliceblue;
-    
+    background-color: rgb(245, 233, 233);
+    position: absolute;
+    width:1349px;
+    height:60px;
+}
+
+#imgMenu {
+  position: relative;
+  top: 3px;
+  left:650px;
 }
 
 
-main {
+#container {
+    background-color: whitesmoke;
+    margin:0px 50px 0px 50px;
+}
+
+/*main {
     background-color: white;
     margin: 0px 50px 0px 50px;
-}
+}*/
+
+
+
 
 #caixa1 {
-    display: flex;
+    
 }
  
-c1 {
-    margin: 50px 0px 0px 0px;
-}
 
-.c2 {
+.c1 {
     text-align: justify;
     margin: 0px 50px 0px 50px;
+    font-family: 'Montserrat', sans-serif;
+    co
+
 }
 
 
