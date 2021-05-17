@@ -1,8 +1,8 @@
-function mat() {
-    var inMat = document.getElementById('mat');
+function clicar() {
+    var btMat = document.getElementById('mat');
+    var matindex = document.getElementById('indexMat')
+    var entrar = btMat.value;
+    entrar = `${matindex}`;
 
-    var mat = inMat.value;
-    var entrar = 
 }
-var btmat = document.getElementById('btmat');
-btmat.addEventListener("click", mat);
+

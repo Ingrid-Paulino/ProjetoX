@@ -1,6 +1,10 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,700;0,900;1,400&display=swap');
 
+*{
+    text-align: justify;
+}
+
 body {
     background-image: linear-gradient(to right,#ff4f38cc, #ff7746d7);
     position:relative;
@@ -22,7 +26,7 @@ body {
 
 #container {
     background-color: whitesmoke;
-    margin:0px 50px 0px 50px;
+    margin: 0px 50px 0px 50px;
 }
 
 /*main {
@@ -31,29 +35,23 @@ body {
 }*/
 
 
-
-
-#caixa1 {
-    
-}
- 
-
-.c1 {
+.testoIntrodutorio {
     text-align: justify;
-    margin: 0px 50px 0px 50px;
-    font-family: 'Montserrat', sans-serif;
-    co
-
+    margin: 0px 120px 0px 120px;
+    font-family:'Montserrat', Arial, Helvetica, sans-serif ;
+    font-size: 20px;
+    font-weight: normal;
 }
 
 
 
-#materia {
+#materias {
     text-align: center;
 }
 
-#materia2 {
+#txtIntrodutorioMateria {
     text-align: justify;
+    margin: 0px 50px 0px 50px;
 }
 
 #cm1 {
@@ -90,14 +88,26 @@ body {
     line-height:150px ; /*Centralisou o texto no meio*/
 }
 
-#txLivro {
+#livro {
     text-align: center;
     margin: 40px 0px 2px 0px;
 }
 
-#pLivro {
-    text-align: justify;
+#txtIntrodutorioLivro{
+    
 
+}
+#dicasDeLeitura {
+  text-align: justify;
+  margin:0px 30px 0px 30px;
+}
+
+#p1{
+    margin-left: 30px;
+}
+
+#p2 {
+    margin-left: 50px;
 }
 
 #ingles {
